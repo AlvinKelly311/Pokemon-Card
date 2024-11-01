@@ -1,0 +1,89 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 2rem;
+  background-color: black;
+}
+
+.container{
+  width: 87rem;
+  padding: 3rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 5rem;
+  background-color: whitesmoke;
+  margin: 2rem 2rem;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  border: solid gray 3px;
+}
+
+.boxs{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.boxs h1{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 2.6rem;
+  font-weight: bolder;
+}
+
+.boxs .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: end;
+  position: relative;
+  left: 15rem;
+  
+}
+
+button{
+  height: 18rem;
+  width: 15rem;
+  border-radius: 1.2rem;
+  border: solid gray 2px;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.image-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.fod{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.color{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.color h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.color p{
+  text-align: center;
+}
