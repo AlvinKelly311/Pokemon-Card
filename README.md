@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Pokémon Card Game
 
 Overview
@@ -41,3 +42,6 @@ Contributing
 
     If you'd like to contribute to this project, please fork the repository and submit a pull request
     Please follow the standard coding conventions and best practices for React and JavaScript
+=======
+# Pokemon-Card
+>>>>>>> d3030fe44efc31e953450292cd8c0287c437f7cf
